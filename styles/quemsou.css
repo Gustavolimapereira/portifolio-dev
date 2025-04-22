@@ -1,0 +1,25 @@
+.profile-pag {
+    width: 100%;
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.profile-pic img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    padding: 4px;
+    background-color: #000000;
+}
