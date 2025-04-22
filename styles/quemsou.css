@@ -1,3 +1,8 @@
+header{
+    height: 80px;
+    background-color: #16181d;
+}
+
 .profile-pag {
     width: 100%;
     background-image: url(../assets/Background_Intro.png);
@@ -11,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 20px;
 }
 
 .profile-pic img{
@@ -22,4 +27,20 @@
     border: 2px solid #ffffff;
     padding: 4px;
     background-color: #000000;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-skills {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
 }
