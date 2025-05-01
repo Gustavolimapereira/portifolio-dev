@@ -1,0 +1,60 @@
+.trabalhos {
+    background-color: #16181d;
+}
+
+.container2 {
+    max-width: 960px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.textos-trabalho {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.title1 {
+    font: var(--h3);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.title2 {
+    font: var(--h3);
+    color: white;
+    margin-bottom: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 16px;
+    padding: 10px;
+  }
+  
+  .item {
+    background-color: #292c34d9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .item p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  

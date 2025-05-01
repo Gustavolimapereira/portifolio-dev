@@ -48,7 +48,7 @@ header{
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .name {
@@ -69,5 +69,17 @@ p {
 }
 
 ul {
-    margin: 60px 0;
+    margin: 60px 0 0 0;
+    padding: 30px;
+}
+
+li {
+    background-color: #2f374a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+
+
 }
