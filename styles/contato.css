@@ -8,9 +8,26 @@
 }
 
 .container4 {
-    max-width: 960px;
+    max-width: 560px;
     margin-inline: auto;
     text-align: center;
+    padding-top: 100px;
 
     
+}
+
+.grid-container-contato {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    padding: 10px;
+  }
+
+  .item-contato {
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
 }
